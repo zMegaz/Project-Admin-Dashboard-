@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-color: #e2e8f0;
 }
 
 .all-cont {
@@ -12,4 +13,43 @@ html {
   grid-template-columns: 200px 100px 100px 105px 300px 300px 200px;
   grid-template-rows: 100px 100px 500px 100px;
   gap: 10px;
+}
+
+.dashboard-cont {
+  min-height: 653px;
+  min-width: 250px;
+  background-color: #1992d4;
+}
+.dashboard-cont {
+  color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+  line-height: 5px;
+}
+.settings-cont {
+  margin-top: 60px;
+}
+
+.top-cont {
+  border: 1px solid red;
+  min-width: 1067px;
+  min-height: 130px;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+
+.search-cont {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  min-width: 600px;
+  min-height: 19px;
+  max-height: 20px;
+}
+
+.grid-cont {
+  margin-top: 400px;
 }
