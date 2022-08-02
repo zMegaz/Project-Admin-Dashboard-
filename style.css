@@ -48,9 +48,15 @@ html {
   padding-top: 10px;
   grid-column: 2;
   grid-row: 1;
+  background-color: white;
 }
 .p {
-  text-align: center;
+  margin-left: 250px;
+  margin-top: -5px;
+  width: 500px;
+}
+.ann {
+  margin-left: 560px;
 }
 .search-cont {
   box-sizing: border-box;
@@ -79,21 +85,27 @@ html {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 300px 200px 200px;
-  grid-template-rows: 200px 142px;
+  grid-template-rows: 200px 142px 100px;
+  gap: 10px;
   grid-row: 3;
   grid-column: 2;
 }
 
-.grid-cont > div {
-  border: 1px solid red;
+.grid {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: -5px 0.01px #f0b429;
 }
 
 .imposapp {
-  height: 200px;
+  height: 130px;
+}
+.announcments {
+  height: 300px;
 }
 
 .easy {
-  height: 200px;
+  height: 130px;
 }
 
 .supercool {
@@ -102,4 +114,13 @@ html {
 
 .lesscool {
   height: 200px;
+}
+
+.adblocker {
+  grid-row: 3;
+  grid-column: 1;
+}
+.moneymaker {
+  grid-row: 3;
+  grid-column: 2;
 }
