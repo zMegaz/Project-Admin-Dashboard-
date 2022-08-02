@@ -3,6 +3,7 @@ html {
   margin: 0;
   background-color: #e2e8f0;
 }
+
 .all-cont {
   box-sizing: border-box;
   display: grid;
@@ -42,9 +43,9 @@ html {
 .top-cont {
   border: 1px solid red;
   min-width: 1047px;
-  min-height: 130px;
+  height: 180px;
   margin-left: -10px;
-  padding-top: 20px;
+  padding-top: 10px;
   grid-column: 2;
   grid-row: 1;
 }
@@ -61,13 +62,44 @@ html {
   min-width: 600px;
   min-height: 19px;
   max-height: 20px;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 0;
+  background-color: #e2e8f0;
+}
+
+.searchicon {
+  width: auto;
+  height: 25px;
+  margin-left: 40px;
 }
 
 .grid-cont {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 300px 200px 200px;
-  grid-template-rows: 300px 300px 100px;
+  grid-template-rows: 200px 142px;
   grid-row: 3;
   grid-column: 2;
+}
+
+.grid-cont > div {
+  border: 1px solid red;
+}
+
+.imposapp {
+  height: 200px;
+}
+
+.easy {
+  height: 200px;
+}
+
+.supercool {
+  height: 200px;
+}
+
+.lesscool {
+  height: 200px;
 }
